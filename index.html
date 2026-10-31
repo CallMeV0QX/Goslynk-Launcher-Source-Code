@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" style="color-scheme: dark;">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Goslynk Launcher</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="./dist/logo.png" />
+  <script>
+    if (typeof navigator.plugins === 'undefined') {
+      Object.defineProperty(navigator, 'plugins', { get: () => [] });
+    }
+  </script>
+
+  <style>
+    #root:empty {
+      background-color: #0b0f19;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #3b82f6;
+      font-family: system-ui, sans-serif;
+    }
+  </style>
+  <script type="module" src="./src-frontend/index-full-beautified.js"></script>
+  <link rel="stylesheet" href="./dist/assets/index-bjmcTOeZ.css">
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
+</html>
+

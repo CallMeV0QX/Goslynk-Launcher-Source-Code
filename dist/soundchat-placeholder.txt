@@ -1,0 +1,15 @@
+IMPORTANT: Replace soundchat.mp3 with actual audio file
+
+To add notification sound:
+1. Download a short notification sound (0.5-2 seconds)
+2. Recommended sources:
+   - https://notificationsounds.com/notification-sounds
+   - https://freesound.org/browse/tags/notification/
+   - https://mixkit.co/free-sound-effects/notification/
+
+3. Rename file to soundchat.mp3
+4. Place in: steam-launcher/public/soundchat.mp3
+5. Delete this placeholder file
+
+Sound format: MP3 (recommended) or WAV
+Recommended: Lightweight notification sound under 100KB

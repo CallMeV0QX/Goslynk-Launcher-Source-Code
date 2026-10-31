@@ -1,0 +1,22 @@
+# Node dependencies
+node_modules/
+.npm/
+
+# Rust / Cargo build artifacts
+src-tauri/target/
+**/target/
+
+# Tauri generated files
+src-tauri/gen/
+
+# Vite / bundler build outputs (only if building, keep dist if dist is the decompressed bundle)
+# Note: dist/ contains the extracted original assets, so we keep it tracked
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
